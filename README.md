@@ -6,7 +6,7 @@
 Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da Start Tech, um progrma da Ambev Tech com  a Gama Academy.
 
 <h3 align="center">
-<a href="https://banco-de-curriculos.herokuapp.com/">VEJAM O RESULTADO DO PROJETO AQUI!<a>
+<a href="https://.com/">VEJAM O RESULTADO DO PROJETO AQUI!<a>
 </h3>
 
 
