@@ -13,9 +13,9 @@ Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da S
 <h2> :camera:  Screenshot do  Formulário </h2>
 
 </hr>
-<img src=”caminho até a imagem”>
+<img src=”https://github.com/Isabellalima86/banco-de-curriculos-gama/blob/main/screenshot.png”>
 
-![image](colocar a imagem aqui.png)
+![image](https://github.com/Isabellalima86/banco-de-curriculos-gama/blob/main/screenshot.png)
 
 
 <h2> :books: Tecnologias e  Linguagens  usadas. </h2>
