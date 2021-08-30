@@ -1,82 +1,70 @@
+# Getting Started with Create React App
 
-<h1 align="center"> :page_with_curl: :card_file_box: Banco-de-curriculos-gama </h1>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-</hr>
+## Available Scripts
 
-Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da Start Tech, um progrma da Ambev Tech com  a Gama Academy.
+In the project directory, you can run:
 
-<h3 align="center">
-<a href="https://.com/">VEJAM O RESULTADO DO PROJETO AQUI!<a>
-</h3>
+### `yarn start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<h2> :camera:  Screenshot do  Formulário </h2>
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-</hr>
-<img src=”https://github.com/Isabellalima86/banco-de-curriculos-gama/blob/main/screenshot.png”>
+### `yarn test`
 
-![image](https://github.com/Isabellalima86/banco-de-curriculos-gama/blob/main/screenshot.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
-<h2> :books: Tecnologias e  Linguagens  usadas. </h2>
-</hr>
-<li> <a href="https://dev.w3.org/html5/html-author/"> HTML5 </a>
-<li> <a href="https://nodejs.org/en/"> NODE.JS </a>
-<li> <a href="https://www.w3schools.com/css/"> CSS3 </a>
-<li> <a href="https://expressjs.com/pt-br/"> EXPRESS JS </a>
-<li> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> JAVASCRIPT </a>
-<li> <a href="https://www.netlify.com/"> NETLIFY </a>
-<li> <a href="https://pt-br.reactjs.org/"> REACT </a>
-<li> <a href="https://www.npmjs.com/package/axios"> REACT </a>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<h2> 	:computer: Funcionalidades</h2>
-</hr>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<p>&#10004;  Documentação Swagger<br>
-<p>&#10004; Hospedar banco de dados<br>
-<p>&#10004; Cadastro de candidato com cpf unico <br>
-<p>&#10004; Consulta de de endereço, por API VIA CEP<br>
-<p>&#10004; Deploy Netlify<br>
+### `yarn eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<h2> :minidisc: Instalando o banco de currículos </h2>
-</hr>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Documentação do projeto [[aqui](https://.com/docs/)]
-* Versão mais recente do Node.js, você pode instalar pelo comando abaixo: `Node.js`
-  
-```
-npm install na pasta raíz do diretório
-```
- 
-* Verifique se tem o : `reactjs`
-  
-```
-npx create-react-app
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* Verifique se tem o : `axios`
-  
-```
- npm install axios
-```
+## Learn More
 
- 
-* Confirme se você tem a versão recente do `MongoDB` (pode ser outro também)
-  
-```
-mongod --dbpath /path/to/db/folder
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<h2> :coffee:	:woman_technologist: Como Usar o banco de currículos :coffee: :man_technologist: </h2> 
-</hr>
-Para usar banco de currículos, siga estas etapas:
-  
-* Defina a variável de ambiente `MONGODB_PASSWORD`
-* Mude o arquivo `db.js` para a url do banco de dados `localhost:3550` caso o MongoDB esteja rodando localmente)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```
-nodemon index.js
-```
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

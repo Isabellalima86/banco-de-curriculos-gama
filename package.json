@@ -1,25 +1,42 @@
 {
-  "name": "projeto-final",
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
-  },
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon src/index.js"
-  },
-  "keywords": [],
-  "author": "Isabella Silva de Lima",
-  "license": "ISC",
+  "name": "banco_curriculos",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.13.8",
-    "swagger-ui-express": "^4.1.6"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-axios": "^2.0.5",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.5.0",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "description": ""
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
