@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import axios from 'axios';
 import './app.css';
 import fotoCentral from './imagens/contratacao.jpg';
-import contratada from './imagens/contratada.jpg';
+import contratada from './imagens/contratada.jpg'; 
 
 const FormInput = styled.input`
 border: 1,5px solid;
@@ -47,6 +47,11 @@ const App = () => {
     
       if (form.cpf === ''){
         alert('Verifique se o campo CPF está em branco!');
+        ok = false;
+      }
+
+      else if (form.rg === ''){
+        alert('Verifique se o campo RG está em branco!');
         ok = false;
       }
       else if (form.nome === ''){
@@ -100,7 +105,8 @@ const App = () => {
        window.location.reload();
      }
 
-   }};
+    }
+  };
 
    const teste = async () => {
       
@@ -179,17 +185,18 @@ const App = () => {
        
           <div> <h2>Dados Pessoais </h2> 
            <hr/> </div>
+
           <div className = 'linha'>    
             <div className='esp'> 
               <div><label> Nome Completo *</label></div>
-              <FormInput onChange= {(e) =>{
+              <FormInput placeholder= 'Ex. Janaina Martins' onChange= {(e) =>{
                 setForm({ ...form, nome: e.target.value});
               }} value= {form.nome}/>  
             </div>
             
             <div className='esp'>  
               <div><label> Cargo Pretendido </label></div>
-              <FormInput placeholder= 'Ex. Professor' onChange= {(e) =>{
+              <FormInput placeholder= 'Ex. Professora' onChange= {(e) =>{
                 setForm({ ...form, cargo: e.target.value});
               }} value= {form.cargo}/>  
             </div>
@@ -332,7 +339,7 @@ const App = () => {
           <div className = 'documentos'> <h2>Documentos </h2>  <hr/> </div>
           <div className = 'linha'>    
             <div className='esp'>  
-              <div><label> Identidade </label> </div>
+              <div><label> Identidade* </label> </div>
               <FormInput placeholder= 'Ex.000000000' onChange= {(e) =>{
                 setForm({ ...form, rg: e.target.value});
               }} value= {form.rg}/>  
