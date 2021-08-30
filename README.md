@@ -45,7 +45,7 @@ VEJAM O CÓDIGO DO PROJETO AQUI!
 <h2> :minidisc: Instalando o banco de currículos </h2>
 </hr>
 
-* Documentação do projeto [[aqui](https://github.com/Isabellalima86/banco-de-curriculos-gama/blob/back/backend/src/swagger.json)]
+* Documentação do projeto [[aqui](https://banco-de-dados.herokuapp.com/docs/)]
 * Versão mais recente do Node.js, você pode instalar pelo comando abaixo: `Node.js`
   
 ```
