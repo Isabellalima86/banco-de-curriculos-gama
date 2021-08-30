@@ -6,8 +6,8 @@
 
 Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da Start Tech, um progrma da Ambev Tech com  a Gama Academy.
 
-<h3 align="center"> [[aqui](https://banco-de-curriculos.netlify.app/)]
-VEJAM O RESULTADO DO PROJETO AQUI!
+<h3 align="center"> [[aqui](https://github.com/Isabellalima86/Final_Gama_Academy)]
+VEJAM O CÓDIGO DO PROJETO AQUI!
 </h3>
 
 
