@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09a82d0b-1844-4c19-9114-c6638febe919/deploy-status)](https://app.netlify.com/sites/banco-de-curriculos/deploys)
 <h1 align="center"> :page_with_curl: :card_file_box: Banco-de-curriculos-gama </h1>
 
 </hr>
