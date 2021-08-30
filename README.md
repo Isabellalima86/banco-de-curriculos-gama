@@ -6,7 +6,7 @@
 Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da Start Tech, um progrma da Ambev Tech com  a Gama Academy.
 
 <h3 align="center">
-<a href="https://.com/">VEJAM O RESULTADO DO PROJETO AQUI!<a>
+<a href=" https://banco-de-curriculos.netlify.app/ ">VEJAM O RESULTADO DO PROJETO AQUI!<a>
 </h3>
 
 
@@ -44,7 +44,7 @@ Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da S
 <h2> :minidisc: Instalando o banco de currículos </h2>
 </hr>
 
-* Documentação do projeto [[aqui](https://.com/docs/)]
+* Documentação do projeto [[aqui](http://localhost:3550/docs/)]
 * Versão mais recente do Node.js, você pode instalar pelo comando abaixo: `Node.js`
   
 ```
