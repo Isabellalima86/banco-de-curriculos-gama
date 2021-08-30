@@ -1,0 +1,85 @@
+{
+  "openapi": "3.0.0",
+
+  "info": {
+    "title": "Projeto Final Gama Academy - Backend e Frontend",
+    "description": "Este é um projeto que cadastra candidatos em um banco de dados",
+    "version": "0.0.1",
+    "e-mail" : "isabellalimasilva@gmail.com"
+  },
+
+  "servers": [
+    {
+      "url": "http://localhost:3550",
+      "description": "ambiente de desenvolvimento"
+    }
+  ],
+
+  "paths": {
+    "/register": {
+      "post": {
+        "summary": "Cadastro de candidato",
+        "description": "Cadastro de usuário, recebe: nome, cargo, nascimento, civil, sexo, endereco, numero, bairro, cidade, estado, cep, telefone1, telefone2, celular, contato,  email, profissao, rg, cpf, veiculo, habilitacao" ,
+        "tags": ["cadastro-de-curriculos"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "nome": {"type" : "string"},
+                  "cargo": {"type" : "string"},
+                  "nascimento": {"type" : "string"},
+                  "civil": {"type" : "string"},
+                  "sexo": {"type" : "string"},
+                  "endereço": {"type": "string"},
+                  "numero": {"type": "string"},
+                  "bairro" : {"type": "string"},
+                  "cidade": {"type" : "string"},
+                  "estado": {"type" : "string"},
+                  "cep": {"type" : "string"},
+                  "telefone1": {"type" : "string"},
+                  "telefone2": {"type" : "string"},
+                  "celular": {"type" : "string"},
+                  "contato": {"type" : "string"},
+                  "email": {"type" : "string"},
+                  "profissao": {"type" : "string"},
+                  "rg": {"type" : "string"},
+                  "cpf": {"type" : "string"},
+                  "veiculo": {"type" : "string"},
+                  "habilitacao": {"type" : "string"}
+                }
+              },
+              "examples": {
+                "eu mermo": {
+                  "value": {
+                    "nome" : "Marcus Lima",
+                    "cargo" : "Desenvolvedor Pleno", 
+                    "nascimento" : "1982-05-08",
+                    "civil" : "Casado",
+                    "sexo" : "Homem Cis",
+                    "endereco" : "Estrada B Vermelho",
+                    "numero" : "234",
+                    "bairro" : "Jardim Colégio",
+                    "cidade": "Rio de Janeiro",
+                    "estado" : "RJ",
+                    "cep" : "21540-501", 
+                    "telefone1" : "(21) 3396-9043",
+                    "telefone2" : " (21) 3345-9876",
+                    "celular" : "(21) 98416-3540",
+                    "contato" : "Marcus",
+                    "email" : "sucram@gmail.com",
+                    "profissão" : "TI",
+                    "rg" : "21908097-7", 
+                    "cpf" : "334.654.023-76",
+                    "veiculo" : "Sim",
+                    "habilitacao" : "B"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
