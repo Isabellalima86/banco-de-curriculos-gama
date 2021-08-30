@@ -26,6 +26,8 @@ Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da S
 <li> <a href="https://expressjs.com/pt-br/"> EXPRESS JS </a>
 <li> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> JAVASCRIPT </a>
 <li> <a href="https://www.netlify.com/"> NETLIFY </a>
+<li> <a href="https://pt-br.reactjs.org/"> REACT </a>
+<li> <a href="https://www.npmjs.com/package/axios"> REACT </a>
 
 
 <h2> 	:computer: Funcionalidades</h2>
@@ -42,13 +44,26 @@ Este é o projeto de conclusão do curso de FUllstack do programa de  Bolsa da S
 <h2> :minidisc: Instalando o banco de currículos </h2>
 </hr>
 
-* Documentação do projeto [[aqui](https://banco-de-curriculos.herokuapp.com/docs/)]
+* Documentação do projeto [[aqui](https://.com/docs/)]
 * Versão mais recente do Node.js, você pode instalar pelo comando abaixo: `Node.js`
   
 ```
 npm install na pasta raíz do diretório
 ```
+ 
+* Verifique se tem o : `reactjs`
   
+```
+npx create-react-app
+```
+
+* Verifique se tem o : `axios`
+  
+```
+ npm install axios
+```
+
+ 
 * Confirme se você tem a versão recente do `MongoDB` (pode ser outro também)
   
 ```
